@@ -1,0 +1,56 @@
+#banner {
+    width: 100%;
+}
+
+.principal {
+    background: #ccc;
+    padding: 30px;
+    margin-top: 0;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.itens {
+    font-style: italic;
+}
+
+.beneficios{
+    background: #ccc;
+    padding: 20px;
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.img-benef {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url("/web-lessons-alura/images/bg.jpg");
+    padding: 40px 0;
+    
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
