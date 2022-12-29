@@ -26,30 +26,27 @@
     <main>
         <form action="">
             <label for="nomesobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <input type="text" id="nomesobrenome" class="input-padrao">
 
             <label for="email">E-mail</label>
-            <input type="email" id="email">
+            <input type="email" id="email" class="input-padrao">
             
             <label for="fone">Telefone</label>
-            <input type="tel" id="fone">
+            <input type="tel" id="fone" class="input-padrao">
 
             <label for="msg">Mensagem</label>
-            <textarea name="mensagem" id="msg" cols="30" rows="10">Insira aqui sua mensagem</textarea>
+            <textarea name="mensagem" id="msg" cols="30" rows="10" class="input-padrao">Insira aqui sua mensagem</textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
-                <label for="radio-email">Email</label>
-                <input type="radio" name="contato" id="radio-email" value="email">
+                <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">E-mail</label>
     
-                <label for="radio-tel">Telefone</label>
-                <input type="radio" name="contato" id="radio-tel" value="telefone">
-    
-                <label for="radio-wpp">WhatsApp</label>
-                <input type="radio" name="contato" id="radio-wpp" value="whatsapp">
+                <label for="radio-tel"><input type="radio" name="contato" id="radio-tel" value="telefone">Telefone</label>
+                
+                <label for="radio-wpp"><input type="radio" name="contato" id="radio-wpp" value="whatsapp">WhatsApp</label>
             </div>
 
-            <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit" value="Enviar Formulário">
         </form>
