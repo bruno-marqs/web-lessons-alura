@@ -204,3 +204,21 @@ footer {
 .video:hover {
     opacity: 1;
 }
+
+@media screen and (max-width:480px){
+    .caixa, .principal, .conteudo-benef, .gps-mapa, .video{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-benef, .img-benef {
+        width: 100%;
+    }
+}
