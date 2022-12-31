@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background: #bbbbbb;
+    background: #bbb;
     padding: 20px 0;
 }
 
@@ -100,11 +100,6 @@ footer {
 
 /* Estilo index */
 
-main{
-    width: 940px;
-    margin: 0 auto;
-}
-
 .banner {
     width: 100%;
 }
@@ -114,6 +109,13 @@ main{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #fefefe;
+    width:940px;
+    margin: 0 auto;
 }
 
 .principal p {
@@ -136,6 +138,12 @@ main{
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888);
+}
+
+.gps-mapa{
+    width: 940px;
+    margin: 0 auto;
 }
 
 .mapa p {
@@ -145,6 +153,7 @@ main{
 
 .beneficios {
     padding: 3em 0;
+    background: linear-gradient(#888, rgb(48, 46, 46));
 }
 
 .conteudo-benef {
@@ -153,7 +162,7 @@ main{
 }
 
 .lista-benef {
-    width: 30%;
+    width: 35%;
     display: inline-block;
     vertical-align: top;
     margin-left: 15px;
@@ -166,6 +175,11 @@ main{
 
 .itens:first-child {
     font-weight: bold;
+}
+
+.itens:before {
+    content: "\2605";
+    color: gold;
 }
 
 .img-benef {
