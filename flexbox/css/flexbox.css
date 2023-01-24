@@ -1,3 +1,5 @@
+/* navbar */
+
 .cabecalhoPrincipal .container{
     display: flex;
     align-items: center;
@@ -7,6 +9,18 @@
 .cabecalhoPrincipal-nav {
     display: flex;
 }
+
+/* course map */
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 255px;
+}
+
+/* footer */
 
 .rodapePrincipal-patrocinadores .container {
     display: flex;
