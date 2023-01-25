@@ -1,4 +1,4 @@
-/* navbar */
+/* =====> navbar <===== */
 
 .cabecalhoPrincipal .container{
     display: flex;
@@ -10,7 +10,7 @@
     display: flex;
 }
 
-/* main */
+/* =====> main <===== */
 
 .conteudoPrincipal-cursos {
     display: flex;
@@ -31,7 +31,7 @@
     margin-right: 0;
 }
 
-/* course map */
+/* =====> course map <===== */
 
 .rodapePrincipal-navMap-list {
     display: flex;
@@ -41,7 +41,7 @@
     height: 255px;
 }
 
-/* footer */
+/* =====> footer <===== */
 
 .rodapePrincipal-patrocinadores .container {
     display: flex;
