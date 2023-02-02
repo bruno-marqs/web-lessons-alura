@@ -13,6 +13,11 @@
     margin-bottom: 1.25rem;
 }
 
+.sobre__texto {
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
 .sobre__texto--destaque {
     color: var(--cinza-escuro);
     font-weight: 700;
